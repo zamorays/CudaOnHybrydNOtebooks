@@ -1,7 +1,7 @@
 # CudaOnHybrydNOtebooks
 Some files and configurations to achieve the use of CUDA on Hybrid (Intel + Nvidia) Notebooks.
 
-> Notebook Model: Lenovo Y50-70
+> Notebook Model: Lenovo Y50-70 + Ubuntu 16.04 LTS
 
 $ sudo apt-add-repository ppa:graphics-drivers/ppa
 
@@ -9,7 +9,7 @@ $ sudo apt-add-repository ppa:bumblebee/testing
 
 \# apt install nvidia-384
 
-Install CUDA 9.0 from Nvidia .run file, dont install driver
+Install CUDA 9.0 from Nvidia .run file, don't install driver from this source
 
 Put following lines at end of /etc/bash.bashrc :
 
@@ -28,4 +28,4 @@ at file .bashrc add:
 
 > export CUDADIR=/usr/loca/cuda
 
-correct bumblebee configurations and modeprobe configurations (some are automatically generated) atached here!
+Correct bumblebee configurations and modeprobe configurations (some are automatically generated) attached here!
